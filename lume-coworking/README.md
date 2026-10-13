@@ -19,9 +19,10 @@ Depois abra http://127.0.0.1:4173. Encerre o servidor com Ctrl+C.
 - dist/assets: fotos fornecidas e versões WebP.
 - PENDENCIAS.md: dados para revisão antes de publicação.
 - VERIFICACAO.md: verificações executadas e limites.
+- verify.mjs: verificações locais em Edge headless, com Playwright instalado somente na pasta temporária de QA. Consulte VERIFICACAO.md para reproduzir.
 
 ## Contato oficial
-Em dist/config.js, preencha whatsapp com o número brasileiro oficial, incluindo 55, DDD e número, somente com dígitos. Os botões passam a abrir o WhatsApp com mensagens específicas. Sem número válido, levam à indicação de contato em validação.
+Em dist/config.js, whatsapp já contém 5575991117750, conforme o número (75) 99111-7750 informado na bio pelo usuário. Os botões abrem consultas no WhatsApp com mensagens específicas para visita, espaços e serviços. Sem número válido na configuração, levam à indicação de contato em validação.
 
 Preencha address, hours e mapsUrl apenas após validação. O link de rota aceita HTTPS de google.com, google.com.br ou maps.app.goo.gl. Se não existir rota válida, não aparece botão de rota.
 
